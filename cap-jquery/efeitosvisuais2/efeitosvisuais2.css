@@ -1,0 +1,12 @@
+#alvo {
+	border: 2px solid black;
+	width: 200px;
+	height: 40px;
+	text-align: center;	padding-top: 15px;
+}
+#quadrado {
+	border: 2px solid black;
+	width: 200px;
+	height: 100px;
+	text-align: center;	padding-top: 50px;
+}

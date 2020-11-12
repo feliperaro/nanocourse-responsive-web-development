@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br" dir="ltr">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Restaurante FIAP</title>
+    <link rel="stylesheet" href="./css/reset.css" type="text/css" />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./css/style.css" type="text/css" />
+</head>
+
+<body>
+    <header class="cabecalho">
+        <div class="container">
+            <h1 class="titulo-principal">
+                <i class="fas fa-seedling"></i>
+                Restaurante FIAP
+            </h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="galeria.html">Galeria</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="galeria">
+        <div class="container">
+            <form>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" placeholder="Digite o nome do responsável pela reserva" required>
+                <label for="telefone">Telefone:</label>
+                <input type="tel" id="telefone" name="telefone" placeholder="Digite o telefone de contato" required>
+                <label for="qtdPessoas">Mesa para quantos:</label>
+                <input type="number" id="qtdPessoas" name="qtdPessoas" step="1"
+                    placeholder="Digite a quantidade de pessoas na mesa" required>
+                <label for="observacoes">Informações adicionais:</label>
+                <textarea id="observacoes" name="observacoes"
+                    placeholder="Informe suas restrições alimentares"></textarea>
+                <button type="submit"><i class="far fa-paper-plane"></i> Enviar</button>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p class="copyright">
+                Feito com <span>&hearts;</span> por FIAP | Copyright &copy; 2020 -
+                Restaurante FIAP
+            </p>
+        </div>
+    </footer>
+</body>
+
+</html>
